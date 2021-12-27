@@ -1,15 +1,11 @@
 package com.example.myhealth
 
-import android.content.Context
-import android.content.SharedPreferences
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import android.content.Intent
-import android.view.View
-import android.widget.EditText
+import com.example.myhealth.databinding.ActivityProfileBinding
 
 class ProfileActivity : AppCompatActivity() {
-
+    lateinit var bindingClass :ActivityProfileBinding
     //var weight = 0
     //var pref: SharedPreferences? = null
 
@@ -17,11 +13,10 @@ class ProfileActivity : AppCompatActivity() {
         super.onCreate(w)
         setContentView(R.layout.activity_profile)
 
-       // pref = getSharedPreferences("PROFILE", Context.MODE_PRIVATE)
+        // pref = getSharedPreferences("PROFILE", Context.MODE_PRIVATE)
         //weight = pref?.getInt(weight)
 
     }
-
 
 
     /*fun onClickAddWeight() {
@@ -36,10 +31,10 @@ class ProfileActivity : AppCompatActivity() {
 
     }*/
 
-   // fun OnDestroy() {
-       // super.onDestroy()
-       // saveData(weight)
-   // }
+    // fun OnDestroy() {
+    // super.onDestroy()
+    // saveData(weight)
+    // }
 }
 
 
