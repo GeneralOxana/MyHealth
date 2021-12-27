@@ -3,8 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/YandexDisk/Kotlin/MyHealth/app/src/main/res/layout/activity_anketa.xml" value="0.3482789855072464" />
+        <entry key="..\:/YandexDisk/Kotlin/MyHealth/app/src/main/res/layout/activity_bad.xml" value="0.3432971014492754" />
+        <entry key="..\:/YandexDisk/Kotlin/MyHealth/app/src/main/res/layout/activity_food.xml" value="0.3432971014492754" />
         <entry key="..\:/YandexDisk/Kotlin/MyHealth/app/src/main/res/layout/activity_main.xml" value="0.25280898876404495" />
         <entry key="..\:/YandexDisk/Kotlin/MyHealth/app/src/main/res/layout/activity_profile.xml" value="0.28940217391304346" />
+        <entry key="..\:/YandexDisk/Kotlin/MyHealth/app/src/main/res/layout/activity_rec.xml" value="0.3432971014492754" />
       </map>
     </option>
   </component>

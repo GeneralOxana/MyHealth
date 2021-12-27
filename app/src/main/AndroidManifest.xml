@@ -10,7 +10,19 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyHealth">
         <activity
-            android:name=".Profile"
+            android:name=".BadActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FoodActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RecActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AnketaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ProfileActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"

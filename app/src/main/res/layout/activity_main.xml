@@ -1,33 +1,56 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     tools:context=".MainActivity"
     style="@style/view">
 
-
     <TextView
-        android:layout_width="wrap_content"
+        android:text="@string/tv_hi"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/hi"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
+        android:gravity="center"/>
 
     <Button
-        android:id="@+id/profile"
+        android:id="@+id/btn_profile"
         style="@style/ButtonStyle"
+        android:onClick="goProfile"
         android:text="Профиль"
-        tools:layout_editor_absoluteX="-16dp"
-        tools:layout_editor_absoluteY="197dp" />
+        app:layout_constraintBottom_toTopOf="@+id/btn_rec"/>
 
     <Button
-        android:id="@+id/rec"
+        android:id="@+id/btn_rec"
         style="@style/ButtonStyle"
+        android:onClick="goRec"
         android:text="Рекомендации"
-        tools:layout_editor_absoluteX="16dp"
-        tools:layout_editor_absoluteY="310dp" />
+        app:layout_constraintBottom_toTopOf="@+id/btn_food"/>
+
+    <Button
+        android:id="@+id/btn_food"
+        style="@style/ButtonStyle"
+        android:onClick="goFood"
+        android:text="Питание"
+        app:layout_constraintBottom_toTopOf="@+id/btn_bad"/>
+
+    <Button
+        android:id="@+id/btn_bad"
+        style="@style/ButtonStyle"
+        android:onClick="goBad"
+        android:text="БАД"
+        app:layout_constraintBottom_toTopOf="@+id/button2" />
+
+    <Button
+        android:id="@+id/button2"
+        style="@style/ButtonStyle"
+        android:text="Button"
+        app:layout_constraintBottom_toTopOf="@+id/btn_exit"  />
+
+    <Button
+        android:id="@+id/btn_exit"
+        style="@style/ButtonStyle"
+        android:onClick="goExit"
+        android:text="Выход"
+        app:layout_constraintBottom_toBottomOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
